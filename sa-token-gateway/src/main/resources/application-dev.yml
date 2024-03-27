@@ -1,0 +1,24 @@
+base:
+  config:
+    nacos:
+      hostname: 192.168.1.9
+      port: 8848
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${base.config.nacos.hostname}:${base.config.nacos.port}
+        namespace: springboot3
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: sa-token-dubbo-cloud-system-card
+          uri: lb://sa-token-dubbo-cloud-system-card
+          predicates:
+            - Path=/card/**
+        - id: sa-token-dubbo-cloud-system-guard
+          uri: lb://sa-token-dubbo-cloud-system-guard
+          predicates:
+            - Path=/guard/**

@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2024/3/26 16:58 <br>
  */
 @RestController
-@RequestMapping("/consumer/card")
-public class ConsumerCardController {
+@RequestMapping("/card")
+public class CardLoginController {
 
     @DubboReference
     private DemoService demoService;
