@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2024/3/26 16:58 <br>
  */
 @RestController
-@RequestMapping("/consumer/guard")
-public class ConsumerGuardController {
+@RequestMapping("/guard")
+public class GuardLoginController {
     @DubboReference
     private DemoService demoService;
     @RequestMapping("/isLogin")
