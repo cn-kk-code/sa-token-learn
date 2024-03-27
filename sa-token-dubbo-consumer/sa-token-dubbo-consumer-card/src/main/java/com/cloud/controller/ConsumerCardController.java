@@ -3,14 +3,13 @@ package com.cloud.controller;
 import cn.dev33.satoken.stp.StpUtil;
 import com.cloud.api.DemoService;
 import org.apache.dubbo.config.annotation.DubboReference;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * description ConsumerCardController <br>
  *
- * @author 文学武 <br>
+ * @author aven <br>
  * @version 1.0 <br>
  * @date 2024/3/26 16:58 <br>
  */

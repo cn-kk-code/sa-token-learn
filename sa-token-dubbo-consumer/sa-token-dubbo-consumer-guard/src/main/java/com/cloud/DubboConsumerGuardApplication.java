@@ -12,11 +12,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @EnableDubbo
 @SpringBootApplication
-public class DubboConsumerCardApplication {
+public class DubboConsumerGuardApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DubboConsumerCardApplication.class, args);
-		System.out.println("Dubbo3ConsumerApplication 启动成功");
+		SpringApplication.run(DubboConsumerGuardApplication.class, args);
+		System.out.println("DubboConsumerGuardApplication 启动成功");
 	}
 
 }

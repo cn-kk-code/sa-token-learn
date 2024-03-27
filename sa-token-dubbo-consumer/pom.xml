@@ -11,5 +11,6 @@
 
     <modules>
         <module>sa-token-dubbo-consumer-card</module>
+        <module>sa-token-dubbo-consumer-guard</module>
     </modules>
 </project>
