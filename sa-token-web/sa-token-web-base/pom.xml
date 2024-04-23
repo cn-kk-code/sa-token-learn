@@ -37,6 +37,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.cloud</groupId>
             <artifactId>sa-token-feign-user</artifactId>
             <version>1.0</version>

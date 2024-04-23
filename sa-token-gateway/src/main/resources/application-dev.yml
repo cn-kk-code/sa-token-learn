@@ -22,3 +22,7 @@ spring:
           uri: lb://sa-token-dubbo-cloud-system-guard
           predicates:
             - Path=/guard/**
+        - id: sa-token-web-base
+          uri: lb://sa-token-web-base
+          predicates:
+            - Path=/base/**
