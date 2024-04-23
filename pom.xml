@@ -13,6 +13,8 @@
         <module>sa-token-dubbo-consumer</module>
         <module>sa-token-gateway</module>
         <module>sa-token-service-base</module>
+        <module>sa-token-feign</module>
+        <module>sa-token-web</module>
     </modules>
 
     <properties>

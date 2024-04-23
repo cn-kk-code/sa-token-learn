@@ -2,6 +2,6 @@ spring:
   profiles:
     active: dev
   application:
-    name: sa-token-service-base
+    name: sa-token-web-base
 server:
-  port: 19997
+  port: 19998

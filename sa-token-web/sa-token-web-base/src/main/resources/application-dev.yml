@@ -1,0 +1,21 @@
+base:
+  config:
+    nacos:
+      hostname: 192.168.1.9
+      port: 8848
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${base.config.nacos.hostname}:${base.config.nacos.port}
+        namespace: springboot3
+feign:
+  client:
+    default:
+      connectTimeout: 5000
+      #服务等待时间
+      readTimeout: 5000
+      loggerLevel: full
+logging:
+  level:
+    com.lgc.cloudalibabaconsumer80.client: debug

@@ -13,8 +13,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class BaseProviderApplication {
+public class TokenProviderBaseApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BaseProviderApplication.class, args);
+        SpringApplication.run(TokenProviderBaseApplication.class, args);
     }
 }

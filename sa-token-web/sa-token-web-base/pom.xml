@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.cloud</groupId>
+        <artifactId>sa-token-web</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>sa-token-web-base</artifactId>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+        <sa-token.version>1.37.0</sa-token.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
+        <!-- SpringBoot Web模块 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cloud</groupId>
+            <artifactId>sa-token-feign-user</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
