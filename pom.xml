@@ -12,6 +12,7 @@
         <module>sa-token-dubbo</module>
         <module>sa-token-dubbo-consumer</module>
         <module>sa-token-gateway</module>
+        <module>sa-token-service-base</module>
     </modules>
 
     <properties>
